@@ -12,17 +12,21 @@ public class App {
         System.setProperty("java.util.logging.config.file", "logging.properties");
 
         // TestCases tests = new TestCases(); // Initialize your test class
+        // tests.testCase01();
 
         // TODO: call your test case functions one after other here
 
-        // tests.testCase01();
-        SearchAmazon searchAmazon = new SearchAmazon();
-        searchAmazon.testCase01();
+        // SearchAmazon searchAmazon = new SearchAmazon();
+        // searchAmazon.testCase01();
+
+        BookMyShowCountHyperlinks countHyperlinks = new BookMyShowCountHyperlinks();
+        countHyperlinks.testCase01();
 
         // END Tests
-        searchAmazon.endTest();
         // tests.endTest(); // End your test by clearning connections and closing
         // browser
+        // searchAmazon.endTest();
+        countHyperlinks.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
