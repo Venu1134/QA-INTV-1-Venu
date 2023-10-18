@@ -19,14 +19,18 @@ public class App {
         // SearchAmazon searchAmazon = new SearchAmazon();
         // searchAmazon.testCase01();
 
-        BookMyShowCountHyperlinks countHyperlinks = new BookMyShowCountHyperlinks();
-        countHyperlinks.testCase01();
+        // BookMyShowCountHyperlinks countHyperlinks = new BookMyShowCountHyperlinks();
+        // countHyperlinks.testCase01();
+
+        ImageURLs imageURLs = new ImageURLs();
+        imageURLs.testCase01();
 
         // END Tests
         // tests.endTest(); // End your test by clearning connections and closing
         // browser
         // searchAmazon.endTest();
-        countHyperlinks.endTest();
+        // countHyperlinks.endTest();
+        imageURLs.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
