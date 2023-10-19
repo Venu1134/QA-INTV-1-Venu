@@ -25,8 +25,11 @@ public class App {
         // ImageURLs imageURLs = new ImageURLs();
         // imageURLs.testCase01();
 
-        Linkedin linkedin = new Linkedin();
-        linkedin.testCase01();
+        // Linkedin linkedin = new Linkedin();
+        // linkedin.testCase01();
+
+        IMDBRatings imdbRatings = new IMDBRatings();
+        imdbRatings.testCase01();
 
         // END Tests
         // tests.endTest(); // End your test by clearning connections and closing
@@ -34,7 +37,8 @@ public class App {
         // searchAmazon.endTest();
         // countHyperlinks.endTest();
         // imageURLs.endTest();
-        linkedin.endTest();
+        // linkedin.endTest();
+        imdbRatings.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
