@@ -3,10 +3,11 @@
  */
 package demo;
 
+import java.awt.AWTException;
 import java.net.MalformedURLException;
 
 public class App {
-    public void getGreeting() throws InterruptedException, MalformedURLException {
+    public void getGreeting() throws InterruptedException, MalformedURLException, AWTException {
 
         // This is to remove unnecessary warnings from your console
         System.setProperty("java.util.logging.config.file", "logging.properties");
@@ -40,8 +41,11 @@ public class App {
         // AlertPrompt alertPrompt = new AlertPrompt();
         // alertPrompt.testCase01();
 
-        GoogleNameLinks googleNameLinks = new GoogleNameLinks();
-        googleNameLinks.testCase01();
+        // GoogleNameLinks googleNameLinks = new GoogleNameLinks();
+        // googleNameLinks.testCase01();
+
+        LinkedImageUpload linkedImageUpload = new LinkedImageUpload();
+        linkedImageUpload.testCase01();
 
         // END Tests
         // tests.endTest(); // End your test by clearning connections and closing
@@ -54,10 +58,11 @@ public class App {
         // framesText.endTest();
         // windowHandles.endTest();
         // alertPrompt.endTest();
-        googleNameLinks.endTest();
+        // googleNameLinks.endTest();
+        linkedImageUpload.endTest();
     }
 
-    public static void main(String[] args) throws InterruptedException, MalformedURLException {
+    public static void main(String[] args) throws InterruptedException, MalformedURLException, AWTException {
         new App().getGreeting();
     }
 }
