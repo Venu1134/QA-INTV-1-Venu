@@ -58,7 +58,7 @@ public class Linkedin {
         String message = "'You can't control every aspect of the software development process, but you can control the quality of your code through testing.'";
 
         driver.get("https://www.linkedin.com/uas/login");
-        driver.findElement(By.id("username")).sendKeys("venugopal281999@gmail.com");
+        driver.findElement(By.id("username")).sendKeys("venugopal28@gmail.com");
         driver.findElement(By.id("password")).sendKeys("venu1234");
         driver.findElement(By.xpath("//button[text()='Sign in']")).click();
         Thread.sleep(5000);

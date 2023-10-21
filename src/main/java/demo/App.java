@@ -34,8 +34,11 @@ public class App {
         // FramesText framesText = new FramesText();
         // framesText.testCase01();
 
-        WindowHandles windowHandles = new WindowHandles();
-        windowHandles.testCase01();
+        // WindowHandles windowHandles = new WindowHandles();
+        // windowHandles.testCase01();
+
+        AlertPrompt alertPrompt = new AlertPrompt();
+        alertPrompt.testCase01();
 
         // END Tests
         // tests.endTest(); // End your test by clearning connections and closing
@@ -46,7 +49,8 @@ public class App {
         // linkedin.endTest();
         // imdbRatings.endTest();
         // framesText.endTest();
-        windowHandles.endTest();
+        // windowHandles.endTest();
+        alertPrompt.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
